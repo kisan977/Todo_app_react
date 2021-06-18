@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4500;
+  height: 100vh;
+  flex-direction: row;
+  text-align: center;
+}
+.center_container {
+  width: 30%;
+  height: 70vh;
+  background-color: #fff;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px 12px 13px 14px;
+}
+h1 {
+  color: #fff;
+  background-color: #880696;
+  padding: 10px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  border: none;
+  top: 10px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #880696;
+  outline: none;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #880696;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: rgb(16, 236, 16);
+}
+
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  align-items: center;
+  display: flex;
+  color: #880696;
+  text-transform: capitalize;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #880696;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 15px 5px 35px;
+  font-size: 20px;
+}
+.todo_style .fa-times:hover {
+  background-color: red;
+}

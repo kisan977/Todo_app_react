@@ -1,0 +1,26 @@
+simple ui made garni 
+
+first kam chae input field ma type garesi tala list ma jani garauni 
+tesko lagi 
+harek input filed ley event call gareko hunxa that is onChange = {itemEvent}
+
+ani hamle type gareko katai tw basna paro so we use state 
+
+const [inputList , setInputList] = useState('')
+
+inputList vaneko state variable vayo jaha chae user ley type gareko data hunxa
+setInputList chae tyo list lai kei updated garna ko lagi use gareni function 
+useState tw state vaehalo
+
+jaba onChange call hunxa tesle tyo function ma yeuta object pass gareko hunxa 
+i.e event
+
+matlab first step ma hamle k greko vaene jab jab input field ma type garinxa tyo chae 
+tala list ma ni dekhine garako
+
+second step chae tyo buttton ma click garesi tyo value chae hamro li tag ma jana paro
+
+tyo garna ko lagi tw hamle j type garxam tyo list ma array ko roop ma jana paro 
+as arry yeuta paxi arko hudai tesai tw janna 
+
+array ma rakhdina aani same time ma teslai list ma call  ni gardini
